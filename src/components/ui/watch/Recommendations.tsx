@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Categories from "./Categories";
 import VideoCard from "../VideoCard";
 import VideoCardSkeleton from "./VideoCardSkeleton";
-import {formatDate, formatNumber} from "../../../../utils/format"
+import {formatDate, formatNumber} from "@/utils/format"
 import VideoItem from "@/interfaces/VideoItem";
 
 

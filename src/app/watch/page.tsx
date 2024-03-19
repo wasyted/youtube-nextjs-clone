@@ -1,5 +1,5 @@
 import { Suspense } from 'react'
-import WatchPage from "../components/ui/watch/WatchPage";
+import WatchPage from "@/components/ui/watch/WatchPage";
 
 export default function Page() {
   return (

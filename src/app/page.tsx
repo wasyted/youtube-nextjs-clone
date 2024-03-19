@@ -1,8 +1,8 @@
 'use client'
 
 import { useState, useEffect } from "react";
-import VideoCard from "./components/ui/home/VideoCard";
-import VideoCardSkeleton from "./components/ui/skeletons/home/VideoCardSkeleton";
+import VideoCard from "@/components/ui/home/VideoCard";
+import VideoCardSkeleton from "@/components/ui/skeletons/home/VideoCardSkeleton";
 import {formatNumber, formatDate} from "../utils/format";
 import VideoItem from "@/interfaces/VideoItem";
 
