@@ -6,11 +6,15 @@ import VideoCallIcon from '@mui/icons-material/VideoCallOutlined';
 import Notifications from '@mui/icons-material/NotificationsOutlined';
 import Link from 'next/link';
 
-export default function Header(){
+interface HeaderProps {
+  handleClick: VoidFunction;
+}
+
+export default function Header({handleClick} : HeaderProps){
   return(
-    <header className='bg-white dark:bg-neutral-950 z-50 flex items-center justify-between sticky w-full top-0 left-0 right-0 p-2 gap-x-2 text-neutral-900 dark:text-neutral-300'>
+    <header className='bg-white dark:bg-neutral-900 z-50 flex items-center justify-between sticky w-full top-0 left-0 right-0 p-2 gap-x-2 text-neutral-900 dark:text-neutral-300'>
       <div className='flex items-center gap-x-4 pl-4'>
-        <button>
+        <button onClick={handleClick}>
           <MenuIcon />
         </button>
         <Link href={'/'} className='flex items-center tracking-tighter'>
@@ -19,7 +23,7 @@ export default function Header(){
           
         </Link>
       </div>
-      <div className='w-full max-w-2xl flex items-center gap-x-4'>
+      <div className='w-2/4 max-w-2xl flex items-center gap-x-4'>
         <div className='sm:flex hidden items-center rounded-full w-full border border-neutral-300 dark:border-neutral-700 overflow-hidden'>
           <input placeholder='Search' className='w-full bg-transparent px-4 py-1.5' type="text" />
           <button className='px-5 py-1.5 bg-transparent border-l dark:border-neutral-700 dark:bg-neutral-800/75'><SearchIcon /></button>
@@ -32,13 +36,10 @@ export default function Header(){
         <div className='block sm:hidden'>
           <SearchIcon className='text-2xl'/>
         </div>
-        <div className='block sm:hidden'>
-          <KeyboardVoice className='text-2xl'/>
-        </div>
-        <div>
+        <div className='hidden sm:block'>
           <VideoCallIcon className='text-2xl'/>
         </div>
-        <div className='relative'>
+        <div className='relative hidden sm:block'>
           <Notifications className='text-2xl'/>
           <div className='px-1 absolute left-3 bottom-2 bg-red-600 text-white font-bold text-xs rounded-full border dark:border-neutral-900 border-lg'>9+</div>
         </div>

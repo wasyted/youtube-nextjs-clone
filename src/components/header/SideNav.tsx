@@ -3,10 +3,15 @@
 import { Home, SubscriptionsOutlined, TheatersOutlined, VideoLibraryOutlined } from "@mui/icons-material";
 import { usePathname } from "next/navigation";
 
-export default function SideNav(){
+interface SideNavProps {
+  isOpen: boolean;
+  handleClick: VoidFunction;
+}
+
+export default function SideNav({isOpen, handleClick} : SideNavProps){
   const currentUrl = usePathname()
   return(
-    <div className={`${currentUrl === '/watch' ? 'hidden' : 'flex'} z-50 fixed bg-neutral-950 px-2 flex-col text-xs gap-y-6 py-6 h-full`}>
+    <div className={`${currentUrl === '/watch' ? 'fixed' : 'sticky'} ${isOpen === false ? 'hidden' : 'flex'} z-50 top-0 left-0 bottom-0 dark:bg-neutral-900 mt-14 px-2 flex-col text-xs gap-y-6 py-6`}>
       <div className="text-center">
         <Home />
         <p className="mt-2">Home</p>

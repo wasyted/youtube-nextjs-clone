@@ -28,7 +28,7 @@ export default function Home() {
     fetchData();
   }, []);
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-5 pt-2 p-8 ml-16 mt-14">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-5 pt-2 p-8 mt-14">
       {data ? ( Array.from(data).map((item, index) => (
         <VideoCard 
           key={index}
