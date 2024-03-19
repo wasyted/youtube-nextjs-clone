@@ -1,0 +1,284 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "video": {
+        "title": "Cute Cats Compilation",
+        "description": "Watch the most adorable cats doing funny things!",
+        "views": 150000,
+        "upload_date": "2024-02-15",
+        "category": "Pets & Animals",
+        "comments": 1200,
+        "likes": 2500,
+        "dislikes": 100,
+        "duration": "15:45",
+        "more_info": "This video features some of the cutest cats from around the world.",
+        "thumbnail": "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "user": {
+        "id": 1,
+        "username": "catlover99",
+        "name": "CatLover",
+        "email": "catlover@example.com",
+        "avatar": "https://images.unsplash.com/photo-1561948955-570b270e7c36?q=80&w=1201&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "subscribers": 50000,
+        "videos_uploaded": 100,
+        "joined_date": "2019-05-10",
+        "country": "United States",
+        "bio": "Hi, I'm a passionate cat enthusiast sharing my love for cats through videos!"
+      }
+    },
+    {
+      "id": 2,
+      "video": {
+        "title": "Epic Travel Vlog: Exploring Thailand",
+        "description": "Join me on an adventure through the beautiful landscapes of Thailand!",
+        "views": 75000,
+        "upload_date": "2023-03-20",
+        "category": "Travel & Events",
+        "comments": 800,
+        "likes": 1800,
+        "dislikes": 70,
+        "duration": "20:10",
+        "more_info": "Experience the rich culture, delicious cuisine, and stunning sights of Thailand in this vlog.",
+        "thumbnail": "https://images.unsplash.com/photo-1528181304800-259b08848526?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "user": {
+        "id": 2,
+        "username": "travelbug88",
+        "name": "TravelBug",
+        "email": "travelbug@example.com",
+        "avatar": "https://images.unsplash.com/photo-1564403243064-ea34df983f7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "subscribers": 30000,
+        "videos_uploaded": 50,
+        "joined_date": "2023-07-01",
+        "country": "Canada",
+        "bio": "Welcome to my channel! I'm a travel enthusiast sharing my adventures from around the globe."
+      }
+    },
+    {
+      "id": 3,
+      "video": {
+        "title": "Gourmet Cooking Masterclass: Italian Cuisine",
+        "description": "Learn how to cook authentic Italian dishes like a pro!",
+        "views": 100000,
+        "upload_date": "2024-01-10",
+        "category": "Food & Drink",
+        "comments": 900,
+        "likes": 2800,
+        "dislikes": 120,
+        "duration": "25:30",
+        "more_info": "Discover the secrets behind delicious Italian recipes in this comprehensive cooking masterclass.",
+        "thumbnail": "https://images.unsplash.com/photo-1625938395857-9cc28c63dbfd?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "user": {
+        "id": 3,
+        "username": "chefextraordinaire",
+        "name": "ChefExtraordinaire",
+        "email": "chef@example.com",
+        "avatar": "https://images.unsplash.com/photo-1654922207993-2952fec328ae?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "subscribers": 60000,
+        "videos_uploaded": 80,
+        "joined_date": "2018-12-05",
+        "country": "Italy",
+        "bio": "Cooking is my passion! Join me in exploring the world of culinary delights."
+      }
+    },
+    {
+      "id": 4,
+      "video": {
+        "title": "Fitness Workout Routine for Beginners",
+        "description": "Get in shape with this easy-to-follow workout routine!",
+        "views": 50000,
+        "upload_date": "2023-12-12",
+        "category": "Health & Fitness",
+        "comments": 700,
+        "likes": 2100,
+        "dislikes": 90,
+        "duration": "30:00",
+        "more_info": "Start your fitness journey today with this beginner-friendly workout routine.",
+        "thumbnail": "https://images.unsplash.com/photo-1581009137042-c552e485697a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "user": {
+        "id": 4,
+        "username": "fitandfabulous",
+        "name": "FitAndFabulous",
+        "email": "fitness@example.com",
+        "avatar": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "subscribers": 40000,
+        "videos_uploaded": 70,
+        "joined_date": "2021-02-20",
+        "country": "United Kingdom",
+        "bio": "Empowering individuals to live a healthy and active lifestyle through fitness."
+      }
+    },
+    {
+      "id": 5,
+      "video": {
+        "title": "DIY Home Decor: Budget-Friendly Ideas",
+        "description": "Transform your living space with these creative DIY home decor projects!",
+        "views": 80000,
+        "upload_date": "2023-11-12",
+        "category": "Home & Garden",
+        "comments": 600,
+        "likes": 1900,
+        "dislikes": 80,
+        "duration": "18:20",
+        "more_info": "Learn how to revamp your home on a budget with these simple yet stylish DIY ideas.",
+        "thumbnail": "https://images.unsplash.com/photo-1567225477277-c8162eb4991d?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "user": {
+        "id": 5,
+        "username": "diyenthusiast",
+        "name": "DIYEnthusiast",
+        "email": "diy@example.com",
+        "avatar": "https://plus.unsplash.com/premium_photo-1661546340024-c38fafcc613c?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "subscribers": 35000,
+        "videos_uploaded": 60,
+        "joined_date": "2019-09-15",
+        "country": "Australia",
+        "bio": "Join me in unleashing your creativity and making your home truly unique with DIY projects!"
+      }
+    },
+    {
+      "id": 6,
+      "video": {
+        "title": "Tech Review: Latest Smartphone Unboxing",
+        "description": "Check out the unboxing and review of the hottest new smartphone!",
+        "views": 120000,
+        "upload_date": "2024-02-25",
+        "category": "Science & Technology",
+        "comments": 1500,
+        "likes": 3500,
+        "dislikes": 200,
+        "duration": "12:45",
+        "more_info": "Get an in-depth look at the features and performance of the latest smartphone in this review.",
+        "thumbnail": "https://images.unsplash.com/photo-1536846670933-ce6eef8dfe89?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "user": {
+        "id": 6,
+        "username": "techgeek123",
+        "name": "TechGeek",
+        "email": "techgeek@example.com",
+        "avatar": "https://plus.unsplash.com/premium_photo-1679079456083-9f288e224e96?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "subscribers": 70000,
+        "videos_uploaded": 90,
+        "joined_date": "2017-11-30",
+        "country": "United States",
+        "bio": "Your ultimate source for all things tech! Join me in exploring the latest gadgets and innovations."
+      }
+    },
+    {
+      "id": 7,
+      "video": {
+        "title": "Fashion Lookbook: Summer Style Inspiration",
+        "description": "Get inspired with trendy summer outfits and styling tips!",
+        "views": 90000,
+        "upload_date": "2024-02-18",
+        "category": "Fashion & Beauty",
+        "comments": 1000,
+        "likes": 2700,
+        "dislikes": 150,
+        "duration": "22:15",
+        "more_info": "Discover the hottest fashion trends and elevate your summer wardrobe with these stylish looks.",
+        "thumbnail": "https://images.unsplash.com/photo-1607784750393-5edbcd13fc36?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "user": {
+        "id": 7,
+        "username": "fashionista22",
+        "name": "Fashionista",
+        "email": "fashionista@example.com",
+        "avatar": "https://plus.unsplash.com/premium_photo-1708274149565-2831e10a65a8?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "subscribers": 45000,
+        "videos_uploaded": 75,
+        "joined_date": "2020-04-02",
+        "country": "France",
+        "bio": "Passionate about fashion and style! Join me in exploring the latest trends and outfit ideas."
+      }
+    },
+    {
+      "id": 8,
+      "video": {
+        "title": "Music Cover: Acoustic Rendition of Popular Hits",
+        "description": "Enjoy soulful acoustic renditions of your favorite songs!",
+        "views": 60000,
+        "upload_date": "2024-03-10",
+        "category": "Music",
+        "comments": 850,
+        "likes": 2200,
+        "dislikes": 110,
+        "duration": "17:50",
+        "more_info": "Immerse yourself in the beautiful melodies and heartfelt performances of these acoustic covers.",
+        "thumbnail": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "user": {
+        "id": 8,
+        "username": "musiclover123",
+        "name": "MusicLover",
+        "email": "musiclover@example.com",
+        "avatar": "https://plus.unsplash.com/premium_photo-1664015982598-283bcdc9cae8?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "subscribers": 40000,
+        "videos_uploaded": 65,
+        "joined_date": "2018-08-10",
+        "country": "United States",
+        "bio": "Sharing my passion for music through acoustic covers of popular songs."
+      }
+    },
+    {
+      "id": 9,
+      "video": {
+        "title": "Educational Series: Introduction to Astrophysics",
+        "description": "Learn the fundamentals of astrophysics in this educational series!",
+        "views": 70000,
+        "upload_date": "2024-03-15",
+        "category": "Education",
+        "comments": 950,
+        "likes": 2600,
+        "dislikes": 130,
+        "duration": "28:20",
+        "more_info": "Explore the wonders of the universe and unravel the mysteries of astrophysics in this informative series.",
+        "thumbnail": "https://images.unsplash.com/photo-1690050070140-c9977577c104?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "user": {
+        "id": 9,
+        "username": "astrofanatic",
+        "name": "AstroFanatic",
+        "email": "astrofanatic@example.com",
+        "avatar": "https://plus.unsplash.com/premium_photo-1673892648299-02f533b411f2?q=80&w=1315&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "subscribers": 55000,
+        "videos_uploaded": 85,
+        "joined_date": "2019-11-20",
+        "country": "Canada",
+        "bio": "Fascinated by the cosmos! Join me in exploring the wonders of astrophysics and space exploration."
+      }
+    },
+    {
+      "id": 10,
+      "video": {
+        "title": "Comedy Sketch: Hilarious Situational Comedy",
+        "description": "Laugh out loud with this side-splitting comedy sketch!",
+        "views": 80000,
+        "upload_date": "2024-11-03",
+        "category": "Comedy",
+        "comments": 1200,
+        "likes": 3000,
+        "dislikes": 180,
+        "duration": "14:30",
+        "more_info": "Get ready for non-stop laughter with this hilarious comedy sketch filled with witty humor and funny scenarios.",
+        "thumbnail": "https://images.unsplash.com/photo-1610964199131-5e29387e6267?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "user": {
+        "id": 10,
+        "username": "laughfactory",
+        "name": "LaughFactory",
+        "email": "laugh@example.com",
+        "avatar": "https://images.unsplash.com/photo-1610964199994-6416eb887998?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "subscribers": 65000,
+        "videos_uploaded": 75,
+        "joined_date": "2024-03-10",
+        "country": "United States",
+        "bio": "Bringing joy and laughter to audiences worldwide with our hilarious comedy sketches!"
+      }
+    }
+  ]
+}
